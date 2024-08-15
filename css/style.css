@@ -116,6 +116,23 @@
     color: #E5745D;
     margin-top: 200px;
 }
+.arows{
+    width: 45px;
+    height: 2px;
+    position: relative;
+    top: 220px;
+    left: -90px;
+    background-color: #E5745D;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: #E5745D;
+    position: relative;
+    border-radius: 50%;
+    top: 214px;
+    left: -67px;
+}
 .Provide .title h1{
     font-family: Vollkorn;
     width: 470px;
