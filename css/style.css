@@ -297,6 +297,18 @@
     font-size: 50px;
     font-weight: 500;
 }
+.card h5{
+    font-family: Vollkorn;
+   color: #00413D;
+   font-weight: 500;
+}
+.card h6{
+    color: #E5745D;
+    margin-top: 20px;
+    font-family: Vollkorn;
+    font-size: 16px;
+    font-weight: 500;
+}
 .cards-wrapper {
     display: flex;
     justify-content: space-between;
