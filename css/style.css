@@ -8,7 +8,8 @@
     box-sizing: border-box;
 
 }
-.primary-discriv{
+
+.primary-discriv {
     font-family: Jost;
     font-size: 20px;
     font-weight: 400;
@@ -17,8 +18,9 @@
     color: #1a7972;
 
 }
+
 /* ========button style============== */
-.btn-praimary{
+.btn-praimary {
     background-color: #E5745D;
     Width: 198px;
     Height: 64px;
@@ -29,18 +31,21 @@
     align-items: center;
     font-size: 18px;
 }
-.border{
+
+.border {
     position: absolute;
     padding: 27px 92px;
 }
+
 /* =====navbar style====== */
-.navbar-nav{
+.navbar-nav {
     column-gap: 50px;
     font-size: 18px;
     font-weight: 400;
     font-family: "Jost", sans-serif;
 }
-.navbar-nav a{
+
+.navbar-nav a {
     padding-left: 0 !important;
     padding-right: 0 !important;
     font-size: 18px;
@@ -49,12 +54,14 @@
     color: #00413D;
     transition: .4s;
 }
-.navbar-nav a:hover{
+
+.navbar-nav a:hover {
     color: #E5745D;
 }
+
 /*====== bannnar section style started heare====== */
-.bannar{
-    background:#00413D;
+.bannar {
+    background: #00413D;
     width: 100%;
     height: 80vh;
     display: flex;
@@ -64,7 +71,8 @@
     z-index: 1;
     padding: 220px 0px;
 }
-.bannar h1{
+
+.bannar h1 {
 
     color: #fff;
     font-family: Vollkorn;
@@ -73,7 +81,8 @@
     line-height: 110px;
     text-align: left;
 }
-.bannar p{
+
+.bannar p {
     font-family: Jost;
     color: #29726d;
     font-size: 20px;
@@ -83,11 +92,13 @@
     width: 670px;
     padding-bottom: 50px;
 }
-#UI{
+
+#UI {
     font-weight: 500px;
     color: #fff;
 }
-.overly{
+
+.overly {
     width: 60%;
     height: 80vh;
     background-image: url('../images/bannar-pick.jpeg');
@@ -98,17 +109,20 @@
     top: 0px;
     transition: .5s;
     z-index: -1;
-    
+
 }
-.bannar:hover .overly{
+
+.bannar:hover .overly {
     right: 0;
 }
+
 /* ===========Provide section start========  */
 
-.Problems{
+.Problems {
     margin-top: 120px;
 }
-.Provide .title h5{
+
+.Provide .title h5 {
     font-family: Vollkorn;
     font-size: 18px;
     font-weight: 500;
@@ -117,7 +131,8 @@
     color: #E5745D;
     margin-top: 200px;
 }
-.arows{
+
+.arows {
     width: 45px;
     height: 2px;
     position: relative;
@@ -125,7 +140,8 @@
     left: -90px;
     background-color: #E5745D;
 }
-.dot{
+
+.dot {
     width: 10px;
     height: 10px;
     background-color: #E5745D;
@@ -134,7 +150,8 @@
     top: 214px;
     left: -67px;
 }
-.Provide .title h1{
+
+.Provide .title h1 {
     font-family: Vollkorn;
     width: 470px;
     font-size: 50px;
@@ -144,37 +161,45 @@
     color: #00413D;
     margin-bottom: 40px;
 }
-.card{
+
+.card {
     padding: 20PX;
-    box-shadow: -1px 1px 6px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: -1px 1px 6px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 1px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 6px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 1px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 1px 6px 0px rgba(0, 0, 0, 0.75);
 }
-#imges{
+
+#imges {
     width: 68px;
     height: 68px;
 }
-.card-body{
+
+.card-body {
     padding: 0 !important;
     border-radius: none !important;
 }
-#icone-1{
+
+#icone-1 {
     font-size: 20px;
     transition: .4s;
 }
-#icone-1:hover{
+
+#icone-1:hover {
     color: #E5745D;
     margin-left: 10px;
     cursor: pointer;
 }
+
 /* I Enjoy Solving Problems section start */
-.images{
+.images {
     width: 570px;
 }
-.contant{
+
+.contant {
     column-gap: 30px;
 }
-.About .ar{
+
+.About .ar {
     width: 40px;
     background-color: #E5745D;
     height: 2px;
@@ -182,7 +207,8 @@
     top: 20px;
     left: 0px;
 }
-.About .do{
+
+.About .do {
     width: 10px;
     background-color: #E5745D;
     height: 10px;
@@ -191,19 +217,22 @@
     top: 14px;
     left: 34px;
 }
-.About{
-   width: 570px;
-   padding: 25px 0px;
+
+.About {
+    width: 570px;
+    padding: 25px 0px;
 }
-.About h5{
-    color: #E5745D; 
+
+.About h5 {
+    color: #E5745D;
     font-family: Vollkorn;
     font-size: 18px;
     font-weight: 500;
     padding-left: 50px;
 
 }
-.About h1{
+
+.About h1 {
     font-family: Vollkorn;
     font-size: 50px;
     font-weight: 500;
@@ -212,7 +241,8 @@
     text-align: left;
     width: 570px;
 }
-.About p{
+
+.About p {
     font-family: Jost;
     font-size: 16px;
     font-weight: 400;
@@ -220,14 +250,17 @@
     text-align: left;
     color: #00413D;
 }
-.mt{
+
+.mt {
     margin-top: 80px;
 }
+
 /* My Recent Projects section start */
-.Recent-section{
+.Recent-section {
     margin-top: 120px;
 }
-.arow-2{
+
+.arow-2 {
     width: 40px;
     height: 2px;
     background-color: #E5745D;
@@ -236,7 +269,8 @@
     left: 0px;
 
 }
-.dot-2{
+
+.dot-2 {
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -245,7 +279,8 @@
     top: 16px;
     left: 35px;
 }
-.content h5{
+
+.content h5 {
     font-family: Vollkorn;
     font-size: 18px;
     font-weight: 500;
@@ -254,10 +289,37 @@
     color: #E5745D;
     padding-left: 50px;
 }
-.content h1{
+
+.content h1 {
     width: 425px;
     color: #00413D;
     font-family: Vollkorn;
     font-size: 50px;
     font-weight: 500;
+}
+.cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#icon-2{
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26.01px;
+    text-align: left;
+    text-decoration: none;
+    color: #00413D;
+    transition: .4s;
+}
+#icon-2:hover{
+    color: #E5745D;
+    font-weight: 900;
+}
+.icon-2{
+    transition: .4s;
+}
+.card a .icon-2:hover{
+    padding-left: 10px;
+    color: #E5745D;
 }
