@@ -8,9 +8,6 @@
     box-sizing: border-box;
 
 }
-.container{
-    max-width: 70% !important;
-}
 .primary-discriv{
     font-family: Jost;
     font-size: 20px;
@@ -59,13 +56,13 @@
 .bannar{
     background:#00413D;
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     position: relative;
     overflow: hidden;
     z-index: 1;
-    /* padding: 220px 0px; */
+    padding: 220px 0px;
 }
 .bannar h1{
 
@@ -91,13 +88,13 @@
     color: #fff;
 }
 .overly{
-    width: 50%;
-    height: 70vh;
+    width: 60%;
+    height: 80vh;
     background-image: url('../images/bannar-pick.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    right: -50%;
+    right: -80%;
     top: 0px;
     transition: .5s;
     z-index: -1;
@@ -107,6 +104,10 @@
     right: 0;
 }
 /* ===========Provide section start========  */
+
+.Problems{
+    margin-top: 120px;
+}
 .Provide .title h5{
     font-family: Vollkorn;
     font-size: 18px;
@@ -163,4 +164,61 @@
 }
 #icone-1:hover{
     color: #E5745D;
+    margin-left: 10px;
+    cursor: pointer;
+}
+/* I Enjoy Solving Problems section start */
+.images{
+    width: 570px;
+}
+.contant{
+    column-gap: 30px;
+}
+.About .ar{
+    width: 40px;
+    background-color: #E5745D;
+    height: 2px;
+    position: relative;
+    top: 20px;
+    left: 0px;
+}
+.About .do{
+    width: 10px;
+    background-color: #E5745D;
+    height: 10px;
+    border-radius: 50%;
+    position: relative;
+    top: 14px;
+    left: 34px;
+}
+.About{
+   width: 570px;
+   padding: 25px 0px;
+}
+.About h5{
+    color: #E5745D; 
+    font-family: Vollkorn;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 50px;
+
+}
+.About h1{
+    font-family: Vollkorn;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 56px;
+    color: #00413D;
+    text-align: left;
+    width: 570px;
+}
+.About p{
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #00413D;
+
+
 }
