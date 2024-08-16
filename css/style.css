@@ -18,6 +18,11 @@
     color: #1a7972;
 
 }
+.card {
+    padding: 20PX;
+    box-shadow: 8px 8px 20px 3px rgba(147, 147, 147, 0.13);
+    border: 0;
+}
 
 /* ========button style============== */
 .btn-praimary {
@@ -161,14 +166,6 @@
     color: #00413D;
     margin-bottom: 40px;
 }
-
-.card {
-    padding: 20PX;
-    box-shadow: -1px 1px 6px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: -1px 1px 6px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -1px 1px 6px 0px rgba(0, 0, 0, 0.75);
-}
-
 #imges {
     width: 68px;
     height: 68px;
@@ -269,7 +266,9 @@
     left: 0px;
 
 }
-
+#card{
+box-shadow: 8px 8px 20px 3px rgba(147, 147, 147, 0.13) !important;   
+}
 .dot-2 {
     width: 10px;
     height: 10px;
@@ -313,6 +312,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 0;
 }
 #icon-2{
     font-family: Jost;
